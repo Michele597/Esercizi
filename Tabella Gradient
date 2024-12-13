@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elenco alberghi</title>
+    <style>
+        table{;border:1px solid;
+            border-collapse: collapse;
+        }
+        th{text-align: center;
+            border: 1px solid;
+            border-color: #888787;
+            width: 150px;
+            color:#FFFFC1;
+        }
+        td{text-align: center;
+            width: 200px;
+            border: 1px solid;
+            border-color: #888787;
+            color:black;
+        }
+        .align{text-align: left;
+        }
+        .color-1{background-image: linear-gradient(red, yellow);
+        }
+        .color-2{background-image: linear-gradient(red, white);
+        }
+        .color-3{background-image: linear-gradient(green, white);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="color-1">
+            <th>ALBERGO</th><th>REGIONE</th><th>STELLE</th><th>COSTO CAMERA</th>
+        </tr>
+        <tr class="color-2">
+            <td class="align">Aristeo</td><td class="align">Emilia Romagna</td><td>1</td><td>76,00€</td>
+        </tr>
+        <tr class="color-3">
+            <td class="align">L'essenza</td><td class="align">Lombardia</td><td>2</td><td>87,00€</td>
+        </tr>
+        <tr class="color-2">
+            <td class="align">Sara</td><td class="align">Lombardia</td><td>4</td><td>142,00€</td>
+        </tr>
+        <tr class="color-3">
+            <td class="align">Grand hotel</td><td class="align">Emilia Romagna</td><td>5</td><td>280,00€</td>
+        </tr>
+        <tr class="color-2">
+            <td class="align">Capriccio</td><td class="align">Calabria</td><td>4</td><td>155,00€</td>
+        </tr>
+        <tr class="color-3">
+            <td class="align">Ambassador</td><td class="align">Calabria</td><td>2</td><td>84,00€</td>
+        </tr>
+        <tr class="color-2">
+            <td class="align">Aster</td><td class="align">Emilia Romagna</td><td>3</td><td>134,00€</td>
+        </tr>
+        <tr class="color-3">
+            <td class="align">Jazz</td><td class="align">Sardegna</td><td>3</td><td>134,00€</td>
+        </tr>
+    </table>
+</body>
+</html>
