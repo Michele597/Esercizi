@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella</title>
+    <style>
+        div{width: 100%;
+            background-image: url(https://lezionicomputergrafica.altervista.org/blog/wp-content/uploads/2017/09/Schermata-2017-09-06-alle-09.23.37-520x245.png);
+            background-size: cover;
+            margin: 0px 0px 0px 0px;
+            padding:200px 200px 200px 200px;
+        }
+        table{width: 70%;
+              border: 5px solid;
+              border-color: gold;
+              border-collapse: collapse;
+              text-align: center;
+        }
+        th{border: 3px solid;
+            border-color: black;
+            color: white;
+        }
+        td{border: 3px solid;
+           border-color: black;
+        }
+        .align{text-align: left;}
+        .strong{font-weight: bold;}
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th class="align">ALBERGO</th><th>REGIONE</th><th>STELLE</th><th>COSTO CAMERA</th>
+            </tr>
+            <tr>
+                <td class="align">Aristeo</td><td class="align">Emilia Romagna</td><td>1</td><td>76,00€</td>
+            </tr>
+            <tr class="strong">
+                <td class="align">L'essenza</td><td class="align">Lombardia</td><td>2</td><td>87,00€</td>
+            </tr>
+            <tr>
+                <td class="align">Sara</td><td class="align">Lombardia</td><td>4</td><td>142,00€</td>
+            </tr>
+            <tr class="strong">
+                <td class="align">Grand Hotel</td><td class="align">Emilia Romagna</td><td>5</td><td>280,00€</td>
+            </tr>
+            <tr>
+                <td class="align">Capriccio</td><td class="align">Calabria</td><td>4</td><td>155,00€</td>
+            </tr>
+            <tr class="strong">
+                <td class="align">Ambassador</td><td class="align">Calabria</td><td>2</td><td>84,00€</td>
+            </tr>
+            <tr>
+                <td class="align">Aster</td><td class="align">Emilia Romagna</td><td>3</td><td>134,00€</td>
+            </tr>
+            <tr class="strong">
+                <td class="align">Jazz</td><td class="align">Sardegna</td><td>3</td><td>134,00€</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
