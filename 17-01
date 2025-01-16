@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{border: 1px solid grey;
+            border: radius 5px;
+            margin: 3%;
+            padding: 3%;
+            box-shadow: 7px 7px 7px grey;
+        }
+        h1{text-align: left;
+           font-size: 280%;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           text-shadow: 2px 2px 2px;
+           word-spacing: 1px;
+           letter-spacing: 1px;
+        }
+        h2{text-align: left;
+           font-family: serif;
+           font-style: italic;
+           text-shadow: 0.5px 0.5px 0.5px;
+           word-spacing: 1px;
+           letter-spacing: 1px;
+           text-align: left;
+        }
+        p{text-align: left;
+          font-family: sans-serif;
+          text-indent: 1%;
+          word-spacing: 1px;
+          letter-spacing: 1px;
+          text-align: left;
+        }
+        img{width: 75%;
+            height: auto;
+            filter: brightness(0.8) saturate(2);
+            border-radius: 10%;
+            margin-left: 11%;
+        }
+            img:hover{filter: contrast(0.8);}
+            a:hover {filter: grayscale(5);}
+    </style>
+</head>
+<body>
+    <img src="https://cdn.blogo.it/yLVqMOoVnMk2rXRDuA8rYbgrIRE=/1280x720/smart/https://www.blogo.it/app/uploads/sites/2/2024/10/don-matteo-14-16.jpg">
+    <div>
+        <h1>Don Matteo 15 si farà, <br> anticipazioni e quando andrà <br> in onda. Ruggeri: "Don <br> Massimo in crisi, Diego e <br>Giulia torneranno"</h1>
+        <h2 style="font-style: italic;">Don Matteo 15 con Raoul Bova si farà. Le nuove puntate sono in fase di <br> scrittura. Intervista al supervisore
+            alla sceneggiatura Mario Ruggeri <br> che svela a Fanpage.it le anticipazioni sulla trama, quando inizieranno <br> le riprese, quando andrà
+            in onda la nuova stagione e i retroscena di <br> Don Matteo 14, dalla morte di Patrizia Cecchini al ritorno fugace di <br> Terence Hill.</h2>
+        <p style="font-size: 12pt; font-family: sans-serif;">A cura di <strong>Daniela Secli</strong></p>
+        <p style="font-size: 12pt;font-size: 18px; font-family: sans-serif;line-height: 25px;">
+            <strong>Don Matteo 15 si farà. Raoul Bova</strong> tornerà a vestire i panni di <strong>Don Massimo</strong> <br> nelle <strong>
+            nuove puntate</strong> che sono attualmente in scrittura e andranno <strong>in onda nella <br> primavera del 2026.</strong>
+            La fiction con <strong>Eugenio Mastrandrea</strong> nel ruolo di Diego, <br> <strong>Federica Sabatini</strong> nel ruolo di Giulia,
+            <strong>Gaia Messerklinger</strong> nel ruolo di Vittoria <br> e <strong>Nino Frassica</strong> e <strong>Nathalie Guetta,</strong>
+            rispettivamente Cecchini e Natalina è <br> sopravvissuta all'<strong>addio di Terence Hill,</strong>mantenendo ascolti altissimi.
+            <i>Fanpage.it</i> <br> ne ha parlato con il supervisore alla sceneggiatura Mario Ruggeri, che ha raccontato <br> i retroscena della
+            <a href="#quattordicesima stagione">quattordicesima stagione</a> <strong>morte di Patrizia Cecchini</strong> <br>
+            al ritorno fugace di Terence Hill. Nell'intervista ha svelato anche <strong>quando inizieranno <br> le riprese di Don Matteo 15,</strong>
+            quando andrà in onda la nuova stagione e alcune <br> <strong>anticipazioni sulla trama.</strong> E sul <strong>finale di Don Matteo 14,</strong>
+            in onda giovedì <br> 19 dicembre, commenta: <i>"Nino Cecchini ha finalmente scoperto come è morta sua <br> figlia. Attraverserà una crisi.
+            E poi ci sarà un momento importante che riguarderà <br> Don Massimo, interpretato da Raoul Bova. Vogliono ucciderlo".</i></p>
+    </div>
+</body>
+</html>
