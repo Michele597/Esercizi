@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{background-color: black;}
+        img{
+            width: 90%;
+            height: 350px;
+            display: block;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        h1{
+            color: white;
+            font-family: sans-serif;
+            display: block;
+            margin-left: 100px;
+            font-size: 50px;
+        }
+        li{
+            display: block;
+            display: inline-block;
+            border: 1px solid grey;
+            font-size: 15px;
+            margin-left: 60px;
+            color: white;
+            padding: 20px;
+            border-radius: 100px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .play{
+            display: block;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-left: -8px;
+            margin-top: -8px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://i.ytimg.com/vi/ehlT5QVfG7g/maxresdefault.jpg">
+        <h1>"Non serve studiare, basta pagare": come si <br> diventa insegnanti senza mai aprire un libro</h1>
+        <ul>
+            <li>Avs presenta interrogazione al <br> ministro Valditara: "Elimini il <br> mercato dei titoli"</li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/459/459435.png" class="play">Nuova inchiesta del team <br> Backstair di Fanpage.it</li>
+            <li>Così si comprano titoli falsi per <br> scalare le graduatorie</li>
+        </ul>
+    </div>
+</body>
+</html>
