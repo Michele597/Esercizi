@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 10px;
+        }
+        .titolo{font-family: sans-serif;
+                font-size: 30px;
+                text-decoration: underline orangered;
+        }
+        .blocco-1{width: 20%;
+            min-height: 150px;
+            float: left;
+            border: 0.5px solid grey;
+            margin-top: 30px;
+        }
+        .blocco-2{width: 20%;
+            min-height: 150px;
+            float: left;
+            border: 0.5px solid grey;
+            margin-top: 30px;
+        }
+        .blocco-3{width: 20%;
+            min-height: 150px;
+            float: left;
+            border: 0.5px solid grey;
+            margin-top: 30px;
+        }
+        .blocco-4{width: 20%;
+            min-height: 150px;
+            float: left;
+            border: 0.5px solid grey;
+            margin-top: 30px;
+        }
+        .categoria{color: grey;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .testo1{font-weight: bold;
+            font-family: sans-serif;
+        }
+        .testo2{font-family: sans-serif;
+            font-weight: bold;
+            float: left;
+            margin-top: 150px;
+            margin-left: 60px;
+        }
+        img{width: 30%;
+            margin-top: 100px;
+            margin-left: 60px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="titolo">Ultime notizie</div>
+    <div class="blocco-1">
+        <div class="categoria">NAPOLI</div>
+         <div class="testo1"> <span style="background-color: orangered;">11:46</span>Incensurato e insospettabile, in casa produce
+            cocaina rosa e ketamina: 45enne arrestato a Giuliano
+        </div>
+    </div>
+    <div class="blocco-2">
+        <div class="categoria">ESTERI</div>
+        <div class="testo1"><span style="background-color: orangered;">11:38</span>Ucraina,
+            truppe nord coreane richiamate dal fronte in Russia, Seul: "Troppe perdite"
+        </div>
+    </div>
+    <div class="blocco-3">
+        <div class="categoria">INNOVAZIONE</div>
+        <div class="testo1"><span style="background-color: orangered">11:36</span>I conti
+            della Fenice Srl di Chiara Ferragni: perchè ora si parla di rosso e aumento del capitale
+        </div>
+    </div>
+    <div class="blocco-4">
+        <div class="categoria">ATTUALITÀ</div>
+        <div class="testo1"><span style="background-color: orangered">11:35</span>
+        Genitori fanno causa alla scuola dopo bocciatura del figlio ma il Tar 
+        li condanna: dovranno pagare 2mila euro
+        </div>
+    </div>
+    <img src="https://youmediafanpage.akamaized.net/video/Z5IrLuSwy80osTfw_pm.jpg?1739464200">
+    <div class="testo2">Perchè è importante abbonarsi a Fanpage.it</div>
+    </div>
+</body>
+</html>
