@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {background-color: #161616;}
+        .titolo{
+            border: 1px solid white;
+            height: 600px;
+            margin: 30px;
+        }
+        header{
+            text-align: center;
+            background-color: #161616;
+            color:white;
+            border: white 1px solid;
+            overflow: hidden;
+        }  
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+            overflow: hidden;
+        }
+        p{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           background-color: #282828;
+           overflow: hidden;
+        }
+        .menù{display: flex;
+            gap: 15px;
+            margin: 50px;
+        }
+        .box-1{
+            width: 90px;
+            height: 50px;
+            background-color: #282828;
+            border: 5px solid #282828;
+            border-radius: 25%;
+            transition: width 0.5s, height 0.5s, transform 0.5, margin 0.5s;
+            transition-delay: 0.5ms;
+            transition-duration: 0.1s;
+            transition-timing-function: linear;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 15px;
+            color: white;
+            overflow: hidden;
+        }
+        .box-2{
+            width: 90px;
+            height: 50px;
+            background-color: #282828;
+            border: 5px solid #282828;
+            border-radius: 25%;
+            transition: width 0.5s, height 0.5s, transform 0.5, margin 0.5s;
+            transition-delay: 0.5ms;
+            transition-duration: 0.1s;
+            transition-timing-function: linear;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 15px;
+            color: white;
+            overflow: hidden;
+        }
+        .box-3{
+            width: 90px;
+            height: 50px;
+            background-color: #282828;
+            border: 5px solid #282828;
+            border-radius: 25%;
+            transition: width 0.5s, height 0.5s, transform 0.5, margin 0.5s;
+            transition-delay: 0.5ms;
+            transition-duration: 0.1s;
+            transition-timing-function: linear;
+            margin-top: 10px;
+            text-align: center;
+            font-size:15px;
+            color: white;
+            overflow: hidden;
+        }
+        .box-4{
+            width: 90px;
+            height: 50px;
+            background-color: #282828;
+            border: 5px solid #282828;
+            border-radius: 25%;
+            transition: width 0.5s, height 0.5s, transform 0.5, margin 0.5s;
+            transition-delay: 0.5ms;
+            transition-duration: 0.1s;
+            transition-timing-function: linear;
+            margin-top: 10px;
+            text-align: center;
+            font-size:15px;
+            color: white;
+            overflow: hidden;
+        }
+        .box-5{
+            width: 90px;
+            height: 55px;
+            background-color: #282828;
+            border: 5px solid #282828;
+            border-radius: 25%;
+            transition: width 0.5s, height 0.5s, transform 0.5, margin 0.5s;
+            transition-delay: 0.5ms;
+            transition-duration: 0.1s;
+            transition-timing-function: linear;
+            margin-top: 10px;
+            text-align: center;
+            font-size:15px;
+            color: white;
+            overflow: hidden;
+        }
+        .box-1:hover{
+            width: 100px;
+            height: 50px;
+            border: 6px solid #282828;
+            background-color: #282828;
+            transform: translate(1px, 1px);
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+        .box-2:hover{
+            width: 100px;
+            height: 50px;
+            border: 6px solid #282828;
+            background-color: #282828;
+            transform: translate(1px, 1px);
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+        .box-3:hover{
+            width: 100px;
+            height: 50px;
+            border: 6px solid #282828;
+            background-color: #282828;
+            transform: translate(1px, 1px);
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+        .box-4:hover{
+            width: 100px;
+            height: 50px;
+            border: 6px solid #282828;
+            background-color: #282828;
+            transform: translate(1px, 1px);
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+        .box-5:hover{
+            width: 105px;
+            height: 50px;
+            border: 6px solid #282828;
+            background-color: #282828;
+            transform: translate(1px, 1px);
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="titolo">
+        <header>
+            <h1>fanpage.it</h1>
+        </header>
+        <div class="menù">
+            <div class="box-1">
+                <p>Home</p>
+            </div>
+            <div class="box-2">
+                <p>Politica</p>
+            </div>
+            <div class="box-3">
+                <p>Spettacolo</p>
+            </div>
+            <div class="box-4">
+                <p>Sport</p>
+            </div>
+            <div class="box-5">
+                <p>Innovazione</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
