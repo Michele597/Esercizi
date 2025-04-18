@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <h1 style="text-align: center; font-weight: bold; font-family: sans-serif;">Elettronica</h1>
+       <div class="container" style="margin-top: 50px; margin-left: 70px;">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_640.jpg" class="card-img-top" alt="Computer">
+                    <div class="card-body">
+                      <h5 class="card-title">Computer</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://cdn.pixabay.com/photo/2016/12/09/11/33/smartphone-1894723_640.jpg" class="card-img-top" alt="Smartphone">
+                    <div class="card-body">
+                      <h5 class="card-title">Smartphone</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://cdn.pixabay.com/photo/2015/01/15/18/18/tablet-600649_640.jpg" class="card-img-top" alt="Tablet">
+                    <div class="card-body">
+                      <h5 class="card-title">Tablet</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.istockphoto.com/id/1563409200/it/foto/uomo-che-guarda-la-tv-con-telecomando-in-mano.jpg?s=612x612&w=0&k=20&c=7qIs7wKODjZyIth8m3OU3qNYlfaGD2CZ88h8KNl86cg=" class="card-img-top" alt="TV">
+                    <div class="card-body">
+                      <h5 class="card-title">TV</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       </div>
+       <h1 style="text-align: center; font-weight: bold; font-family: sans-serif; margin-top: 50px;">Casa</h1>
+       <div class="container" style="margin-top: 50px; margin-left: 70px;">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.istockphoto.com/id/1366569235/it/foto/divano-isolato-su-sfondo-bianco.jpg?s=612x612&w=0&k=20&c=RhDVFutCBNnM60o9yW53zFQSGe6-L7eEgEHjsm_QXGU=" class="card-img-top" alt="Divano">
+                    <div class="card-body">
+                      <h5 class="card-title">Divani</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.istockphoto.com/id/1432426713/it/foto/immagine-ravvicinata-spazio-di-copia-vuoto-sul-tavolo-da-pranzo-in-legno-nel-soggiorno-di-casa.jpg?s=612x612&w=0&k=20&c=RtXB1VweYCOcHZ-5W22n01GIWgkYt2tqDG9czKpycRM=" class="card-img-top" alt="Tavolo">
+                    <div class="card-body">
+                      <h5 class="card-title">Tavoli</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.istockphoto.com/id/1319636830/it/vettoriale/set-di-sedie-in-legno-per-luso-esterno-e-interno-sedia-retr%C3%B2-senza-cuscino-illustrazione.jpg?s=612x612&w=0&k=20&c=Hs3AYnDUW6jouP6fZhHTxKn2hEbwQysuh1tMR_ws064=" class="card-img-top" alt="Sedia">
+                    <div class="card-body">
+                      <h5 class="card-title">Sedie</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="https://media.istockphoto.com/id/1424803291/it/foto/vista-ravvicinata-della-sedia-reclinabile-nel-soggiorno.jpg?s=612x612&w=0&k=20&c=Xcm_fpytCi4Ui2V_sWiKaVxetbeTzonYxcoOJfdAfl8=" class="card-img-top" alt="Poltrona">
+                    <div class="card-body">
+                      <h5 class="card-title">Poltrone</h5>
+                      <a href="#" class="btn btn-primary">Vedi articoli</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       </div>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
