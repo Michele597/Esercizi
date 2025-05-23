@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+            body{
+                background-color:rgb(163, 46, 46);
+            }
+            .navbar-brand{
+                font-weight: bold;
+                font-size: 30px;
+            }
+            .navbar-brand:hover{
+                color: red;
+            }
+            .nav-item{
+                font-size: 20px;
+            }
+            .nav-item:hover{
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+       <nav class="navbar navbar-expand-lg bg-danger">
+  <div class="container-fluid">
+    <img src="data:image/jpeg;base64,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" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
+    <a class="navbar-brand mx-2 my-2" href="#"> Roma</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-2 my-2">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-2 my-2">
+          <a class="nav-link" href="#">Informazioni</a>
+        </li>
+        <li class="nav-item mx-2 my-2">
+          <a class="nav-link" href="#">Bandi</a>
+        </li>
+        <li class="nav-item mx-2 my-2">
+          <a class="nav-link" href="#">Amministrazione</a>
+        </li>
+        <li class="nav-item mx-2 my-2">
+          <a class="nav-link" href="#">Servizi</a>
+        </li>
+        <li class="nav-item mx-2 my-2">
+          <a class="nav-link" href="#">Contatti</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Cerca</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.repstatic.it/content/nazionale/img/2022/08/11/112925261-bdbf903e-d10f-4602-bc68-2700a6b9343e.jpg" class="d-block w-75 mx-auto my-3" alt="Colosseo">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.fulltravel.it/wp-content/uploads/2019/11/Cosa-vedere-a-Roma.jpg" class="d-block w-75 mx-auto my-3" alt="Paesaggio">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.interrail.eu/content/dam/images/interrail/shutterstock_153365288.adaptive.767.1746729376844.png" class="d-block w-75 mx-auto my-3" alt="Pantheon">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<div style="display: flex; justify-content: center;">
+    <button type="button" class="btn btn-warning me-4">Scopri le ultime novità</button>
+    <button type="button" class="btn btn-warning me-4">Accedi ai servizi</button>
+    <button type="button" class="btn btn-warning me-4">Contattaci</button>
+</div>
+<br><br>
+<div style="display: flex; justify-content: center;">
+  <iframe width="600" height="450" src="https://www.youtube.com/embed/l1-cjDx_WtI?si=UPUJ5tXb4WV5LyuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div style="display: flex; justify-content: center; margin-top: 50px; margin-bottom: 20px;">
+    <iframe class="mappa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.35442469164!2d12.371186000279312!3d41.910208792496555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRoma%20RM!5e0!3m2!1sit!2sit!4v1747992206075!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
