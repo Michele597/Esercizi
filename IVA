@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Calcolo Iva</title>
+  <style>
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url("https://img.freepik.com/foto-premium/una-bella-illustrazione-con-sfondo-colorato-di-fumo_265989-17893.jpg?semt=ais_hybrid&w=740"); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    h1 {
+        color: white; 
+        font-size: 70px; 
+        text-align: center; 
+        margin: 10px; 
+        padding: 10px;
+    }
+    p {
+        margin-top: 60px;
+        padding: 5px; 
+        font-size: 60px; 
+        font-weight: bold;
+        display: flex; 
+        justify-content: center; 
+    }
+  </style>
+</head>
+<body>
+ <h1>Calcola qui il prezzo del prodotto senza Iva</h1>
+ <p id="risultato"></p>
+ <script>
+    var prezzo = prompt("Inserisci qui il prezzo del prodotto comprensivo di Iva", " ")
+    prezzo /= 1.22;
+    document.getElementById("risultato").innerHTML=("Il prezzo del prodotto senza Iva è:" + " " + prezzo);
+ </script>
+</body>
+</html>
